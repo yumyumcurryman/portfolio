@@ -1,6 +1,4 @@
 import React from "react";
-import reactDom from "react-dom";
-import FigmaEmbed from "react-figma-embed";
 
 const Projects = () => {
   return (

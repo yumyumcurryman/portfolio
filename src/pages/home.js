@@ -10,7 +10,6 @@ import figma from "../icons/figma.svg";
 import react from "../icons/react.svg";
 import nodejs from "../icons/nodejs.svg";
 import firebase from "../icons/firebase.svg";
-const resumePath = "../icons/firebase.svg";
 
 const Home = () => {
   return (
