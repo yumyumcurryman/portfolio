@@ -40,8 +40,8 @@
   margin-bottom: -5px;
 }
 
+a,
 a:visited {
-  text-decoration: none;
   color: white;
 }
 
