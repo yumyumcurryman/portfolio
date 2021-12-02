@@ -33,3 +33,9 @@ body {
     padding: 0 10%;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  body {
+    margin-top: 110px;
+  }
+}
