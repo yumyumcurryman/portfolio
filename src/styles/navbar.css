@@ -1,0 +1,53 @@
+.bar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 25vw;
+  background-color: rgba(32, 32, 35, 0.95);
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Saira", sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#navbar-title {
+  font-weight: 900;
+  color: white;
+  font-size: 1.7rem;
+}
+
+.navbar-options-section {
+  color: white;
+}
+
+.navbar-options {
+  list-style-type: none;
+  display: inline-block;
+}
+.navbar-options li {
+  display: inline;
+  font-weight: 300;
+  margin-left: 25px;
+}
+
+.navbar-options li:hover {
+  border-bottom: 2px solid white;
+}
+
+.navlink {
+  text-decoration: none;
+}
+.navlink:visited {
+  color: white;
+}
+
+.bar a,
+a:visited {
+  color: white;
+  text-decoration: none;
+}

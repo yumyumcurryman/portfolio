@@ -1,0 +1,95 @@
+#home-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Saira", sans-serif;
+  color: white;
+}
+#home-container #micah {
+  width: 100%;
+  object-fit: contain;
+  align-self: center;
+  border-radius: 1rem;
+  transition-duration: 0.3s;
+}
+
+#home-container #micah:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+#home-container h2 {
+  margin: 0;
+  margin-top: 10px;
+}
+
+#home-container h4 {
+  margin: 0;
+  margin-top: -4px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.section-content-header {
+  border-left: 2px solid white;
+  padding-left: 10px;
+  margin-bottom: -10px;
+}
+
+.section-content {
+  text-indent: 2em;
+  margin-bottom: -5px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#skills-section {
+  margin-top: 30px;
+}
+
+.skills-grid {
+  margin-top: 25px;
+  padding: 0 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+  .skills-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.contact-section button {
+  height: 40px;
+  margin-left: 10px;
+  color: white;
+  background-color: #8b5fbf;
+  font-family: "Saira", sans-serif;
+  border-radius: 3px;
+  border: none;
+  padding: 0 10px;
+  transition-duration: 0.1s;
+}
+
+i {
+  vertical-align: middle;
+  margin-right: 5px;
+  font-size: 5px;
+}
+
+.contact-section button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
