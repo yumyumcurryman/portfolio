@@ -24,7 +24,7 @@ const Home = () => {
         programming at the age of 11 and have gained experience in many
         different areas including iOS, game dev, and web development. I am
         currently working on a platform called{" "}
-        <a href="https:/socialwings.app">Socialwings</a>.
+        <a href="https://socialwings.app">Socialwings</a>.
       </p>
       <p className="section-content">
         I enjoy working on every aspect of a project from start to finish. As a
