@@ -22,7 +22,11 @@ const NavBar = () => {
       <div className="navbar-options-section" id={navbarOpen ? "" : "hidden"}>
         <ul className="navbar-options">
           <li>
-            <NavLink className="navlink" to="/projects">
+            <NavLink
+              className="navlink"
+              onClick={() => setNavbarOpen(!navbarOpen)}
+              to="/projects"
+            >
               Projects
             </NavLink>
           </li>

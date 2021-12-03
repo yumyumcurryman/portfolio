@@ -116,6 +116,12 @@ a:visited {
     border-radius: 1px;
     color: white;
     padding: 5px 7px;
+    transition-duration: 0.1s;
+  }
+
+  #burger-button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
   }
 
   #burger-icon {
