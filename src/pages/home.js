@@ -24,7 +24,7 @@ const Home = () => {
         programming at the age of 11 and have gained experience in many
         different areas including iOS, game dev, and web development. I am
         currently working on a platform called{" "}
-        <a href="https://socialwings.app" target="_blank">
+        <a href="https://socialwings.app" target="_blank" rel="noreferrer">
           Socialwings
         </a>
         .
