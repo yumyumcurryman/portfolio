@@ -36,13 +36,17 @@ const Home = () => {
       <div className="contact-section">
         <a href="resources/resume.pdf" download>
           <button>
-            <i class="material-icons">file_download</i>
+            <i id="home-icon" class="material-icons">
+              file_download
+            </i>
             My Resume
           </button>
         </a>
         <a href="mailto:micahkelias@gmail.com">
           <button>
-            <i className="material-icons">email</i>
+            <i id="home-icon" className="material-icons">
+              email
+            </i>
             Contact Me
           </button>
         </a>

@@ -1,16 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/navbar.css";
 
 const NavBar = () => {
+  const [navbarOpen, setNavbarOpen] = useState(false);
+
   return (
     <div className="bar">
-      <h1 id="navbar-title">
-        <NavLink className="navlink" to="/">
-          Micah Elias
-        </NavLink>
-      </h1>
-      <div className="navbar-options-section">
+      <div className="title-and-burger">
+        <h1 id="navbar-title">
+          <NavLink className="navlink" to="/">
+            Micah Elias
+          </NavLink>
+        </h1>
+        <button id="burger-button" onClick={() => setNavbarOpen(!navbarOpen)}>
+          <i id="burger-icon" class="material-icons">
+            menu
+          </i>
+        </button>
+      </div>
+      <div className="navbar-options-section" id={navbarOpen ? "" : "hidden"}>
         <ul className="navbar-options">
           <li>
             <NavLink className="navlink" to="/projects">

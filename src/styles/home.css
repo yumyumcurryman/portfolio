@@ -93,10 +93,10 @@ a:visited {
   transition-duration: 0.1s;
 }
 
-i {
+#home-icon {
   vertical-align: middle;
   margin-right: 5px;
-  font-size: 5px;
+  font-size: 20px;
 }
 
 .contact-section button:hover {
