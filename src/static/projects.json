@@ -1,20 +1,30 @@
-[
-  {
-    "id": 1,
-    "title": "Socialwings",
-    "description": "Schedule and organize group flights on Vatsim, IVAO, and PilotEdge with full control over event timings, routes, and logistics.",
-    "previewImage": "socialwings.png"
-  },
-  {
-    "id": 2,
-    "title": "X-Bureau A318",
-    "description": "Key contributor to development of aircraft systems for the X-Bureau A318 with focus on MCDU and EFB modules.",
-    "previewImage": "xb318.png"
-  },
-  {
-    "id": 3,
-    "title": "Gymlink",
-    "description": "A revolutionary new platform connecting trainers and athletes while providing real-time workout planning and analysis features.",
-    "previewImage": "gymlink.png"
-  }
-]
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Socialwings",
+      "description": "Schedule and organize group flights on Vatsim, IVAO, and PilotEdge with full control over event timings, routes, and logistics.",
+      "previewImage": "socialwings.png"
+    },
+    {
+      "id": 2,
+      "title": "X-Bureau A318",
+      "description": "Key contributor to development of aircraft systems for the X-Bureau A318 with focus on MCDU and EFB modules.",
+      "previewImage": "xb318.png"
+    },
+    {
+      "id": 3,
+      "title": "Gymlink",
+      "description": "A revolutionary new platform connecting trainers and athletes while providing real-time workout planning and analysis features.",
+      "previewImage": "gymlink.png"
+    }
+  ],
+  "other": [
+    {
+      "id": 99,
+      "title": "Minesweeper",
+      "description": "Lightweight recreation of Minesweeper written in Java for Mac, Windows, and Linux. Built on the Processing framework.",
+      "previewImage": "minesweeper.png"
+    }
+  ]
+}

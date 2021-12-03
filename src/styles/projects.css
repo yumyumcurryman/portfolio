@@ -1,4 +1,5 @@
-.projects-grid {
+.projects-grid,
+.other-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
@@ -6,7 +7,8 @@
 }
 
 @media only screen and (max-width: 500px) {
-  .projects-grid {
+  .projects-grid,
+  .other-grid {
     grid-template-columns: repeat(1, 1fr);
   }
 }

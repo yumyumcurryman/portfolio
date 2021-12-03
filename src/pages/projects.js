@@ -8,7 +8,14 @@ const Projects = () => {
     <div>
       <h2>Projects</h2>
       <div className="projects-grid">
-        {projectData.map((data) => (
+        {projectData.projects.map((data) => (
+          <ProjectGridItem key={data.id} data={data} />
+        ))}
+      </div>
+      <hr />
+      <h2>Other Works</h2>
+      <div className="other-grid">
+        {projectData.other.map((data) => (
           <ProjectGridItem key={data.id} data={data} />
         ))}
       </div>
