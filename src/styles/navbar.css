@@ -5,7 +5,7 @@
   left: 0;
   right: 0;
   padding: 0 25vw;
-  background-color: rgba(32, 32, 35, 0.95);
+  background-color: rgba(32, 32, 35, 0.9);
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -13,6 +13,7 @@
   font-family: "Saira", sans-serif;
   white-space: nowrap;
   overflow: hidden;
+  backdrop-filter: blur(6px);
 }
 
 .title-and-burger {

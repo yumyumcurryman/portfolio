@@ -25,6 +25,12 @@
       "title": "Minesweeper",
       "description": "Lightweight recreation of Minesweeper written in Java for Mac, Windows, and Linux. Built on the Processing framework.",
       "previewImage": "minesweeper.png"
+    },
+    {
+      "id": 98,
+      "title": "NBA Score Predictor",
+      "description": "A barebones prediction model used to predict scores of NBA games daily. Built using Python, CoreML, and Swift.",
+      "previewImage": "nba-predictions.png"
     }
   ]
 }

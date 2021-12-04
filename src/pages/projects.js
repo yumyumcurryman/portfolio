@@ -5,7 +5,7 @@ import projectData from "../static/projects.json";
 
 const Projects = () => {
   return (
-    <div>
+    <div id="projects-page">
       <h2>Projects</h2>
       <div className="projects-grid">
         {projectData.projects.map((data) => (
