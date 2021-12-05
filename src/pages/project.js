@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router";
 import projectData from "../static/projects.json";
 import "../styles/project.css";
+import { NavLink } from "react-router-dom";
 
 function getProject(id) {
   for (let i = 0; i < projectData.projects.length; i++) {
@@ -20,9 +21,7 @@ const Project = (props) => {
   return (
     <div>
       <div id="project-header">
-        <a href="/projects" id="project-link">
-          Projects
-        </a>
+        <NavLink to="/projects">Projects</NavLink>
         <i className="material-icons">navigate_next</i>
         <h2>{project.title}</h2>
       </div>
