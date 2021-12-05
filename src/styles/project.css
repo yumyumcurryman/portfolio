@@ -1,0 +1,13 @@
+#project-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#project-header h2 {
+  margin: 1px 0;
+}
+
+/* #project-link {
+  margin-right: 15px;
+} */

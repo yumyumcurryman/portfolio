@@ -3,7 +3,13 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
+
   /* background-color: green; */
+}
+
+.projects-grid a,
+.other-grid a {
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 500px) {

@@ -1,19 +1,19 @@
 {
   "projects": [
     {
-      "id": 1,
+      "id": "socialwings",
       "title": "Socialwings",
       "description": "Schedule and organize group flights on Vatsim, IVAO, and PilotEdge with full control over event timings, routes, and logistics.",
       "previewImage": "socialwings.png"
     },
     {
-      "id": 2,
+      "id": "xb-318",
       "title": "X-Bureau A318",
       "description": "Key contributor to development of aircraft systems for the X-Bureau A318 with focus on MCDU and EFB modules.",
       "previewImage": "xb318.png"
     },
     {
-      "id": 3,
+      "id": "gymlink",
       "title": "Gymlink",
       "description": "A revolutionary new platform connecting trainers and athletes while providing real-time workout planning and analysis features.",
       "previewImage": "gymlink.png"
@@ -21,13 +21,13 @@
   ],
   "other": [
     {
-      "id": 99,
+      "id": "minesweeper",
       "title": "Minesweeper",
       "description": "Lightweight recreation of Minesweeper written in Java for Mac, Windows, and Linux. Built on the Processing framework.",
       "previewImage": "minesweeper.png"
     },
     {
-      "id": 98,
+      "id": "nba-score-predictor",
       "title": "NBA Score Predictor",
       "description": "A barebones prediction model used to predict scores of NBA games daily. Built using Python, CoreML, and Swift.",
       "previewImage": "nba-predictions.png"
