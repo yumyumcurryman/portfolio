@@ -9,7 +9,8 @@
       "article": "<p>A web-based  platform for the flightsim community that allows for easier coordination of group flights on the Vatsim, PilotEdge, and IVAO netoworks. The goal of this platform is to bring the organizational power of traditional VACCs to individuals. Event organizers have full control over timings, controller staffing, routes, and participants.</p>",
       "website": "https://www.socialwings.app",
       "date": "2021-present",
-      "stack": ["ReactJS", "NodeJS", "Firebase", "Algolia"]
+      "stack": ["ReactJS", "NodeJS", "Firebase", "Algolia"],
+      "images": ["home.png", "login.png"]
     },
     {
       "id": "xb-318",
@@ -21,17 +22,33 @@
       "date": "2020-2021",
       "stack": ["X-Plane 11 SDK", "SASL", "Lua", "Figma"],
       "images": [
-        {
-          "original": "https://cdn.discordapp.com/attachments/709430707096911922/823758616808390707/Screen_Shot_2021-03-22_at_11.11.50_PM.png",
-          "thumbnail": "https://cdn.discordapp.com/attachments/709430707096911922/823758616808390707/Screen_Shot_2021-03-22_at_11.11.50_PM.png"
-        }
+        "mcdu_updater.gif",
+        "efb_progress.png",
+        "efb_progress2.png",
+        "efb_overview.gif",
+        "live-updater.png",
+        "mcdu_progress.gif",
+        "updater.jpeg"
       ]
     },
     {
       "id": "gymlink",
       "title": "Gymlink",
       "description": "A revolutionary new platform connecting trainers and athletes while providing real-time workout planning and analysis features.",
-      "previewImage": "gymlink.png"
+      "previewImage": "gymlink.png",
+      "article": "<p>Initially a mobile and tablet based service for providing a new way to connect athletes to their trainers when apart. Core features include a live collaborative workout builder and planner, complex workout analysis using CoreML machine learning, and integrated social features.</p><p>For athletes, Gymlink offers suggestions based on lifting history when putting together workouts. This includes recommended sets, reps, and weight. Additionally, the app provides detailed feedback on individual sessions as well as short-term and long-term trends. Atheletes also had the ability to pair with one or more trainers/ coaches to monitor progress and bulld workouts.</p><p>For trainers and coaches, Gymlink is the perfect tool for keeping track of a client's progression in the weight room. The app gives you access to stats and analysis generated using CoreML machine learning. Track lift progressions for different exercises across clients to gain an understanding of workout effectiveness.</p>",
+      "date": "2019-2020",
+      "stack": [
+        "iOS",
+        "Swift",
+        "SwiftUI",
+        "NodeJS",
+        "Firebase",
+        "Algolia",
+        "CoreML"
+      ],
+      "website": "https://gymlink.app (deprecated)",
+      "images": ["gymlink1.png", "gymlink2.png"]
     }
   ],
   "other": [
