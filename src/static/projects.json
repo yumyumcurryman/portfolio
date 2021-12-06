@@ -19,7 +19,13 @@
       "article": "<p>Key contributor to development of aircraft systems for the X-Bureau A318 with focus on MCDU and EFB modules. Developed a small, Lua-based OS for the EFB with modules that support images, widgets, and animations, and user-interactivity. Also led initial development of the MCDU OS with a streamlined page system, input system, and flight-system interation manager that allows routing to all cockpit instruments. Created the first ever live-update system for an X-Plane aircraft in which aircraft code files can be updated to the latest version from GitHub while in flight.</p>",
       "website": "https://x-bureau.com/",
       "date": "2020-2021",
-      "stack": ["X-Plane 11 SDK", "SASL", "Lua", "Figma"]
+      "stack": ["X-Plane 11 SDK", "SASL", "Lua", "Figma"],
+      "images": [
+        {
+          "original": "https://cdn.discordapp.com/attachments/709430707096911922/823758616808390707/Screen_Shot_2021-03-22_at_11.11.50_PM.png",
+          "thumbnail": "https://cdn.discordapp.com/attachments/709430707096911922/823758616808390707/Screen_Shot_2021-03-22_at_11.11.50_PM.png"
+        }
+      ]
     },
     {
       "id": "gymlink",
