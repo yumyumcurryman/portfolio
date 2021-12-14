@@ -45,7 +45,7 @@ const Project = (props) => {
         <div id="project-info">
           <BadgeItem description="Date" item={project.date} />
           <BadgeItem description="Website" item={project.website} />
-          <BadgeItem description="Tech Stack" item={project.stack} />
+          <BadgeItem description="Stack" item={project.stack} />
         </div>
         <MediaGrid
           id={project.id}
@@ -136,7 +136,7 @@ const BadgeItem = (props) => {
   return (
     <div className="badge-item">
       <div className="badge">{props.description}</div>
-      {props.description === "Tech Stack" ? (
+      {props.description === "Stack" ? (
         <TechStackRow stack={props.item} />
       ) : (
         props.item

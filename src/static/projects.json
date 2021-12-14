@@ -9,7 +9,7 @@
       "article": "<p>A web-based  platform for the flightsim community that allows for easier coordination of group flights on the Vatsim, PilotEdge, and IVAO netoworks. The goal of this platform is to bring the organizational power of traditional VACCs to individuals. Event organizers have full control over timings, controller staffing, routes, and participants.</p>",
       "website": "https://www.socialwings.app",
       "date": "2021-present",
-      "stack": ["ReactJS", "NodeJS", "Firebase", "Algolia"],
+      "stack": ["ReactJS", "NodeJS", "Firebase", "Algolia", "Figma"],
       "images": ["home.png", "login.png"]
     },
     {
@@ -45,7 +45,8 @@
         "NodeJS",
         "Firebase",
         "Algolia",
-        "CoreML"
+        "CoreML",
+        "Figma"
       ],
       "website": "https://gymlink.app (deprecated)",
       "images": ["gymlink1.png", "gymlink2.png"]
