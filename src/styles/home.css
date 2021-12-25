@@ -6,9 +6,11 @@
 }
 #home-container #micah {
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
   align-self: center;
   border-radius: 1rem;
+  height: 350px;
+
   transition-duration: 0.3s;
 }
 

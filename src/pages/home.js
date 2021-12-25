@@ -1,5 +1,6 @@
 import React from "react";
-import micah from "../img/micah.jpeg";
+// import micah from "../img/micah.jpeg";
+import fullSize from "../img/fullSize.png";
 import "../styles/home.css";
 import Skill from "../components/skill";
 
@@ -14,7 +15,7 @@ import firebase from "../icons/firebase.svg";
 const Home = () => {
   return (
     <div id="home-container">
-      <img id="micah" src={micah} alt="" />
+      <img id="micah" src={fullSize} alt="" />
       <h2>Micah Elias</h2>
       <h4>Full stack developer based in Orinda, CA</h4>
       <h3 className="section-content-header">About</h3>
