@@ -38,7 +38,7 @@ const NavBar = () => {
           <li>Posts</li>
           <li>
             <a
-              href="https://github.com/yumyumcurryman"
+              href="https://github.com/micahke"
               target="_blank"
               rel="noreferrer"
             >
