@@ -1,69 +1,86 @@
 {
-  "projects": [
-    {
-      "id": "socialwings",
-      "title": "Socialwings",
-      "description": "Schedule and organize group flights on Vatsim, IVAO, and PilotEdge with full control over event timings, routes, and logistics.",
-      "previewImage": "socialwings.png",
-      "bannerImage": "socialwings-banner.png",
-      "article": "<p>A web-based  platform for the flightsim community that allows for easier coordination of group flights on the Vatsim, PilotEdge, and IVAO netoworks. The goal of this platform is to bring the organizational power of traditional VACCs to individuals. Event organizers have full control over timings, controller staffing, routes, and participants.</p>",
-      "website": "https://www.socialwings.app",
-      "date": "2021-present",
-      "stack": ["ReactJS", "NodeJS", "Firebase", "Algolia", "Figma"],
-      "images": ["home.png", "login.png"]
-    },
-    {
-      "id": "xb-318",
-      "title": "X-Bureau A318",
-      "description": "Key contributor to development of aircraft systems for the X-Bureau A318 with focus on MCDU and EFB modules.",
-      "previewImage": "xb318.png",
-      "article": "<p>Key contributor to development of aircraft systems for the X-Bureau A318 with focus on MCDU and EFB modules. Developed a small, Lua-based OS for the EFB with modules that support images, widgets, and animations, and user-interactivity. Also led initial development of the MCDU OS with a streamlined page system, input system, and flight-system interation manager that allows routing to all cockpit instruments. Created the first ever live-update system for an X-Plane aircraft in which aircraft code files can be updated to the latest version from GitHub while in flight.</p>",
-      "website": "https://x-bureau.com/",
-      "date": "2020-2021",
-      "stack": ["X-Plane 11 SDK", "SASL", "Lua", "Figma"],
-      "images": [
-        "mcdu_updater.gif",
-        "efb_progress.png",
-        "efb_progress2.png",
-        "efb_overview.gif",
-        "live-updater.png",
-        "mcdu_progress.gif",
-        "updater.jpeg"
-      ]
-    },
-    {
-      "id": "gymlink",
-      "title": "Gymlink",
-      "description": "A revolutionary new platform connecting trainers and athletes while providing real-time workout planning and analysis features.",
-      "previewImage": "gymlink.png",
-      "article": "<p>Initially a mobile and tablet based service for providing a new way to connect athletes to their trainers when apart. Core features include a live collaborative workout builder and planner, complex workout analysis using CoreML machine learning, and integrated social features.</p><p>For athletes, Gymlink offers suggestions based on lifting history when putting together workouts. This includes recommended sets, reps, and weight. Additionally, the app provides detailed feedback on individual sessions as well as short-term and long-term trends. Atheletes also had the ability to pair with one or more trainers/ coaches to monitor progress and bulld workouts.</p><p>For trainers and coaches, Gymlink is the perfect tool for keeping track of a client's progression in the weight room. The app gives you access to stats and analysis generated using CoreML machine learning. Track lift progressions for different exercises across clients to gain an understanding of workout effectiveness.</p>",
-      "date": "2019-2020",
-      "stack": [
-        "iOS",
-        "Swift",
-        "SwiftUI",
-        "NodeJS",
-        "Firebase",
-        "Algolia",
-        "CoreML",
-        "Figma"
-      ],
-      "website": "https://gymlink.app (deprecated)",
-      "images": ["gymlink1.png", "gymlink2.png"]
-    }
-  ],
-  "other": [
-    {
-      "id": "minesweeper",
-      "title": "Minesweeper",
-      "description": "Lightweight recreation of Minesweeper written in Java for Mac, Windows, and Linux. Built on the Processing framework.",
-      "previewImage": "minesweeper.png"
-    },
-    {
-      "id": "nba-score-predictor",
-      "title": "NBA Score Predictor",
-      "description": "A barebones prediction model used to predict scores of NBA games daily. Built using Python, CoreML, and Swift.",
-      "previewImage": "nba-predictions.png"
-    }
-  ]
+    "projects": [
+        {
+            "id": "socialwings",
+            "title": "Socialwings",
+            "description": "Schedule and organize group flights on Vatsim, IVAO, and PilotEdge with full control over event timings, routes, and logistics.",
+            "previewImage": "socialwings.png",
+            "bannerImage": "socialwings-banner.png",
+            "article": "<p>A web-based  platform for the flightsim community that allows for easier coordination of group flights on the Vatsim, PilotEdge, and IVAO netoworks. The goal of this platform is to bring the organizational power of traditional VACCs to individuals. Event organizers have full control over timings, controller staffing, routes, and participants.</p>",
+            "website": "https://www.socialwings.app",
+            "date": "2021-present",
+            "stack": [
+                "ReactJS",
+                "NodeJS",
+                "Firebase",
+                "Algolia",
+                "Figma"
+            ],
+            "images": [
+                "home.png",
+                "login.png"
+            ]
+        },
+        {
+            "id": "xb-318",
+            "title": "X-Bureau A318",
+            "description": "Key contributor to development of aircraft systems for the X-Bureau A318 with focus on MCDU and EFB modules.",
+            "previewImage": "xb318.png",
+            "article": "<p>Key contributor to development of aircraft systems for the X-Bureau A318 with focus on MCDU and EFB modules. Developed a small, Lua-based OS for the EFB with modules that support images, widgets, and animations, and user-interactivity. Also led initial development of the MCDU OS with a streamlined page system, input system, and flight-system interation manager that allows routing to all cockpit instruments. Created the first ever live-update system for an X-Plane aircraft in which aircraft code files can be updated to the latest version from GitHub while in flight.</p>",
+            "website": "https://x-bureau.com/",
+            "date": "2020-2021",
+            "stack": [
+                "X-Plane 11 SDK",
+                "SASL",
+                "Lua",
+                "Figma"
+            ],
+            "images": [
+                "mcdu_updater.gif",
+                "efb_progress.png",
+                "efb_progress2.png",
+                "efb_overview.gif",
+                "live-updater.png",
+                "mcdu_progress.gif",
+                "updater.jpeg"
+            ]
+        },
+        {
+            "id": "gymlink",
+            "title": "Gymlink",
+            "description": "A revolutionary new platform connecting trainers and athletes while providing real-time workout planning and analysis features.",
+            "previewImage": "gymlink.png",
+            "article": "<p>Initially a mobile and tablet based service for providing a new way to connect athletes to their trainers when apart. Core features include a live collaborative workout builder and planner, complex workout analysis using CoreML machine learning, and integrated social features.</p><p>For athletes, Gymlink offers suggestions based on lifting history when putting together workouts. This includes recommended sets, reps, and weight. Additionally, the app provides detailed feedback on individual sessions as well as short-term and long-term trends. Atheletes also had the ability to pair with one or more trainers/ coaches to monitor progress and bulld workouts.</p><p>For trainers and coaches, Gymlink is the perfect tool for keeping track of a client's progression in the weight room. The app gives you access to stats and analysis generated using CoreML machine learning. Track lift progressions for different exercises across clients to gain an understanding of workout effectiveness.</p>",
+            "date": "2019-2020",
+            "stack": [
+                "iOS",
+                "Swift",
+                "SwiftUI",
+                "NodeJS",
+                "Firebase",
+                "Algolia",
+                "CoreML",
+                "Figma"
+            ],
+            "website": "https://gymlink.app (deprecated)",
+            "images": [
+                "gymlink1.png",
+                "gymlink2.png"
+            ]
+        }
+    ],
+    "other": [
+        {
+            "id": "minesweeper",
+            "title": "Minesweeper",
+            "description": "Lightweight recreation of Minesweeper written in Java for Mac, Windows, and Linux. Built on the Processing framework.",
+            "previewImage": "minesweeper.png"
+        },
+        {
+            "id": "nba-score-predictor",
+            "title": "NBA Score Predictor",
+            "description": "A barebones prediction model used to predict scores of NBA games daily. Built using Python, CoreML, and Swift.",
+            "previewImage": "nba-predictions.png"
+        }
+    ]
 }

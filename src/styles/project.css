@@ -1,10 +1,11 @@
-#project-header {
+
+.project-header {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-#project-header h2 {
+.project-header h2 {
   margin: 1px 0;
 }
 

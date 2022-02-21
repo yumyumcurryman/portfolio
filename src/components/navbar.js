@@ -11,6 +11,11 @@ const NavBar = () => {
         setCurrentPage(1);
     };
 
+    const clickPosts = () => {
+        setNavbarOpen(!navbarOpen);
+        setCurrentPage(2);
+    };
+
     return (
         <div className="bar">
             <div className="title-and-burger">
@@ -23,7 +28,7 @@ const NavBar = () => {
                     </a>
                 </h1>
                 <button id="burger-button" onClick={() => setNavbarOpen(!navbarOpen)}>
-                    <i id="burger-icon" class="material-icons">
+                    <i id="burger-icon" className="material-icons">
                         menu
                     </i>
                 </button>
@@ -35,7 +40,11 @@ const NavBar = () => {
                             Projects
                         </NavLink>
                     </li>
-                    <li>Posts</li>
+                    <li id={currentPage === 2 ? "active" : ""}>
+                        <NavLink className="navlink" onClick={clickPosts} to="/posts">
+                            Posts
+                        </NavLink>
+                    </li>
                     <li>
                         <a
                             href="https://github.com/yumyumcurryman"
