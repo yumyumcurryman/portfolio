@@ -22,6 +22,15 @@ body {
   color: grey;
 }
 
+.full-page {
+    width: 100%;
+}
+
+._404_image {
+    width: 100%;
+    object-fit: cover;
+}
+
 @media only screen and (max-width: 1000px) {
   body {
     padding: 0 15%;

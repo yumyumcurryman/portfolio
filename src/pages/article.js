@@ -17,12 +17,14 @@ export default function Article() {
                 <h2>{article.name}</h2>
             </div>
             <section style={{ marginTop: "30px" }}>
-                <img
-                    src={require(`../img/articleBanners/${article.banner}`).default}
-                    alt=""
-                    className="banner"
-                />
-                <div dangerouslySetInnerHTML={{ __html: article.content }}></div>
+                <div className="banner-container">
+                    <img
+                        src={require(`../img/articleBanners/${article.banner}`).default}
+                        alt=""
+                        className="banner"
+                    />
+                </div>
+                <div className="article-content" dangerouslySetInnerHTML={{ __html: article.content }}></div>
             </section>
         </div>)
 }

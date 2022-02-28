@@ -41,8 +41,8 @@ const NavBar = () => {
                         </NavLink>
                     </li>
                     <li id={currentPage === 2 ? "active" : ""}>
-                        <NavLink className="navlink" onClick={clickPosts} to="/posts">
-                            Posts
+                        <NavLink className="navlink" onClick={clickPosts} to="/blog">
+                            Blog
                         </NavLink>
                     </li>
                     <li>

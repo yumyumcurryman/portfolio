@@ -8,6 +8,7 @@ import Home from "./pages/home";
 import Project from "./pages/project";
 import Posts from "./pages/posts";
 import Article from "./pages/article";
+import PageNotFounc from "./pages/notfound";
 
 class App extends React.Component {
     render() {
@@ -17,8 +18,9 @@ class App extends React.Component {
                     <Route path="/" element={<Home />} />
                     <Route path="/projects" element={<Projects />}></Route>
                     <Route path="/projects/:projectId" element={<Project />} />
-                    <Route path="/posts" element={<Posts />} />
-                    <Route path="/posts/:articleID" element={<Article />} />
+                    <Route path="/blog" element={<Posts />} />
+                    <Route path="/blog/:articleID" element={<Article />} />
+                    <Route path="*" element={<PageNotFounc />} />
                 </Routes>
                 <div id="footer">
                     <p>© 2021 Micah Elias. All rights reserved.</p>
