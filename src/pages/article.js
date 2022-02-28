@@ -12,7 +12,7 @@ export default function Article() {
     return (
         <div>
             <div className="project-header">
-                <NavLink to="/posts">Posts</NavLink>
+                <NavLink to="/blog">Posts</NavLink>
                 <i className="material-icons">navigate_next</i>
                 <h2>{article.name}</h2>
             </div>
