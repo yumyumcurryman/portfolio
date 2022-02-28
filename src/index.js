@@ -23,7 +23,7 @@ class App extends React.Component {
                     <Route path="*" element={<PageNotFounc />} />
                 </Routes>
                 <div id="footer">
-                    <p>© 2021 Micah Elias. All rights reserved.</p>
+                    <p>© 2022 Micah Elias. All rights reserved.</p>
                 </div>
                 <NavBar />
             </BrowserRouter>
