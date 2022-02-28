@@ -1,3 +1,4 @@
+
 import { NavLink, useParams } from "react-router-dom";
 import "../styles/articles.css"
 
@@ -9,6 +10,10 @@ function getArticle(id) {
 export default function Article() {
     const params = useParams()
     const article = getArticle(params.articleID)
+
+    document.title = article.name
+
+
     return (
         <div>
             <div className="project-header">
