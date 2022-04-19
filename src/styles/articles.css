@@ -1,13 +1,15 @@
-.article-preview, .article-preview p {
+.article-preview,
+.article-preview p {
     margin-top: 3px;
     margin-bottom: 0;
 }
+
 .article-item {
     border-radius: 0.5rem;
     padding: 8px 15px;
     display: flex;
     justify-content: space-between;
-    align-items:baseline;
+    align-items: baseline;
 }
 
 #posts-page a {
@@ -18,7 +20,7 @@
     margin: 0;
     vertical-align: text-top;
     font-size: smaller;
-    color:hsl(0, 0%, 80%);
+    color: hsl(0, 0%, 80%);
     text-align: right;
 }
 
@@ -54,8 +56,15 @@
     justify-content: center;
 }
 
+
+
 .media-container .reg-image {
     width: 90%;
+    object-fit: cover;
+}
+
+.media-container .small-img {
+    width: 50%;
     object-fit: cover;
 }
 
@@ -76,7 +85,7 @@
     gap: 15px;
 }
 
-.grid_two_one img{
+.grid_two_one img {
     object-fit: cover;
     width: 100%;
     max-height: 100%;
@@ -87,4 +96,4 @@
     .grid_two_one {
         grid-template-columns: repeat(1, 1fr);
     }
-  }
+}
